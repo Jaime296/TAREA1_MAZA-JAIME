@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+
+
+</head>
+
+<body> 
+<strong> <center><h1>Unidad Temática 14:Arquitecturas Web en servicios</h1></center></strong> 
+<center><h3>Tarea 1: Elaboracion de documento HTML</h3></center>
+<center><h3>Nombre: Jaime Maza Maza</h3></center>
+<h4>1. Visualizaciones de mapa compuesto por 3 capas cartograficas de la provincia de El Oro</h4>
+<button>Mapa de El Oro</button>
+<p>El mapa de la provincia de El Oro, ubicada en el suroeste de Ecuador, muestra una región caracterizada por su diversidad geográfica y socioeconómica. La provincia limita al oeste con el océano Pacífico, al norte con la provincia de Guayas, al este con Loja y al sur con Perú. Su geografía incluye áreas costeras, planicies, colinas y el vertiente occidental de la cordillera de los Andes, lo que le otorga una gran variedad de paisajes y ecosistemas</p>
+<img src= "https://geoserver.idesinde.com:8443/geoserver/wms?Request=getmap&service=wms&width=800&height=800&FORMAT=image/png&VERSION=1.3.0&LAYERS=MAZA%3ACantones_ElOro,MAZA%3AVIAS,MAZA%3APoblados%20El%20Oro&CRS=EPSG:32717&BBOX=550000,9550000,700000,9700000" alt="Mapa de cantones, poblados y vias de El Oro">
+<h4>2. Desplegables de cada una de las capas cartograficas de la provincia de El Oro</h4>
+<a href= "https://geoserver.idesinde.com:8443/geoserver/wms?request=GetMap&service=wms&width=800&height=800&FORMAT=image/png&VERSION=1.3.0&LAYERS=MAZA%3ACantones_ElOro&CRS=EPSG:32717&BBOX=550000,9550000,700000,9700000" target = "_blank">Mapa de cantones de El Oro </a>
+<br>
+<a href= "https://geoserver.idesinde.com:8443/geoserver/wms?request=GetMap&service=wms&width=800&height=800&FORMAT=image/png&VERSION=1.3.0&LAYERS=MAZA%3APoblados%20El%20Oro&CRS=EPSG:32717&BBOX=550000,9550000,700000,9700000" target = "_blank">Mapa de poblados de El Oro </a>
+<br>
+<a href= "https://geoserver.idesinde.com:8443/geoserver/wms?request=GetMap&service=wms&width=800&height=800&FORMAT=image/png&VERSION=1.3.0&LAYERS=MAZA%3AVIAS&CRS=EPSG:32717&BBOX=550000,9550000,700000,9700000" target = "_blank">Mapa de vias de El Oro </a>
+<h4>2. Descarga de capas cartograficas de la provincia de El Oro</h4>
+<p>Mapa de cantones de El Oro</p>
+<a href= "https://geoserver.idesinde.com:8443/geoserver/wfs?service=WFS&request=GetFeature&typename=MAZA%3ACantones_ElOro&outputformat=kml" target = "_blank">
+<img src= "https://static.vecteezy.com/system/resources/previews/000/562/163/non_2x/vector-download-download-button-illustration-data.jpg" alt="Descarga de cantones de El Oro" style="width:102px;height:62px;"> 
+</a>
+<br>
+<p>Mapa de poblados de El Oro</p>
+<a href= "https://geoserver.idesinde.com:8443/geoserver/wfs?service=WFS&request=GetFeature&typename=MAZA%3APoblados%20El%20Oro&outputformat=kml" target = "_blank">
+<img src= "https://cdn.pixabay.com/photo/2022/12/07/17/41/download-7641614_960_720.png" alt="Descarga de poblados de El Oro" style="width:102px;height:62px;"> 
+</a>
+<br>
+<p>Mapa de vias de El Oro</p>
+<a href= "https://geoserver.idesinde.com:8443/geoserver/wfs?service=WFS&request=GetFeature&typename=MAZA%3AVIAS&outputformat=kml" target = "_blank">
+<img src= "https://t4.ftcdn.net/jpg/00/30/97/95/360_F_30979558_xE3Cmmfu9rV4AUms7oMRgExethsBs7pf.jpg" alt="Descarga de vias de El Oro" style="width:102px;height:62px;"> 
+</a>
+
+
+
+
+
+</body>
+
+
+</html>
